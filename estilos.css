@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contenedor-calculadora{
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.grupo{
+   background: rgb(225, 201, 201);
+   margin-bottom: 20px;
+   flex-direction: column;
+   display: flex;
+   text-align: left;
+}
+
+input[type="date"] {
+  padding: 8px;
+  margin-top: 3px;
+  
+}
+
+button {
+  background-color: #008CBA;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 14px;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
